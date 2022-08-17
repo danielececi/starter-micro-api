@@ -7,7 +7,7 @@ app.get('/', (req, res) => {
 });
 
 app.get('/test', (req, res) => {
-    res.send('Test endopoint');
+    res.send('{status: "update completed"}');
 });
 
 app.listen(port, () => console.log(`Hello world app listening on port ${port}!`))
